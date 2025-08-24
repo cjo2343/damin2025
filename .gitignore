@@ -272,4 +272,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#ignore idea
+.idea/
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,macos,linux,windows
