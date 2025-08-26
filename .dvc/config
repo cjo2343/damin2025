@@ -1,0 +1,4 @@
+[core]
+    remote = damin2025
+['remote "damin2025"']
+    url = https://damin2025.s3.amazonaws.com/

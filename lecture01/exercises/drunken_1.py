@@ -93,3 +93,4 @@ def step(drunken: list) -> list:
         ret.append(dr)
 
     return ret
+
