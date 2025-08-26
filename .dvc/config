@@ -1,4 +1,7 @@
 [core]
-    remote = damin2025
-['remote "damin2025"']
-    url = https://damin2025.s3.amazonaws.com/
+    autostage = true
+    remote = download
+['remote "storage"']
+    url = s3://fabricionarcizo-damin-2024
+['remote "download"']
+    url = https://d3jhdw2ipgozea.cloudfront.net
