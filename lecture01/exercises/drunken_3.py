@@ -180,7 +180,9 @@ def normal_fit_plot(drunken: list, bins: int, mu: np.float64, std: np.float64):
         mu (np.float64): Average.
         std (np.float64): Standard deviation.
     """
-    plt.hist(drunken, bins, density=True)
+    counts, bin_edges, patches = plt.hist(drunken, bins, density=True)
+     # Add this line to see the output
+    print("Bin Edges:", bin_edges)
 
     a, b = plt.xlim()
     x = np.linspace(a, b, 1000)
